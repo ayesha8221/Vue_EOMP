@@ -27,7 +27,7 @@ export default createStore({
     async getTestimonials(context){
       try {
         let { testimonials } = await (
-          await fetch("https://ayesha8221.github.io/ayesha8821.github.io/db.json")
+          await fetch("https://ayesha8221.github.io/data/db.json")
         ).json();
         if (testimonials) {
           context.commit("setTestimonials", testimonials);
@@ -42,7 +42,7 @@ export default createStore({
     async getProjects(context){
       try {
         let { projects } = await (
-          await fetch("https://ayesha8221.github.io/ayesha8821.github.io/db.json")
+          await fetch("https://ayesha8221.github.io/data/db.json")
         ).json();
         if (projects) {
           context.commit("setProjects", projects);
