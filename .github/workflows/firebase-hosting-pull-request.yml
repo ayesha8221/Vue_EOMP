@@ -13,5 +13,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_VUE_EOMP_8EE87 }}'
-          projectId: vue-eomp-8ee87
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_VUE_EOMP_41C08 }}'
+          projectId: vue-eomp-41c08

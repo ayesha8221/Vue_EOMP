@@ -120,12 +120,6 @@ backdrop-filter: blur(3px);
   border: solid blueviolet;
   margin-right: 800px;
 }
-    
-/* @keyframes blink {
-  50% {
-    border-color: transparent
-  }
-} */
 
 </style>
 
