@@ -7,7 +7,10 @@ export default createStore({
     testimonial: null,
     // projects
     projects: null,
-    project: null
+    project: null,
+    //education and experience
+    education: null,
+    education: null
   },
 
   mutations: {
@@ -19,6 +22,11 @@ export default createStore({
     // Projects
     setProjects: (state, projects) => {
       state.projects = projects;
+    },
+
+    //Education
+    setEducation: (state, education) => {
+      state.education = education;
     },
 
   },
@@ -52,6 +60,6 @@ export default createStore({
       } catch (e) {
         console.error(error);
       }
-    }
+    },
   },
 })
