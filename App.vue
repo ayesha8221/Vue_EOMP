@@ -1,12 +1,25 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <NavbarComp/>
+  
   <router-view/>
+  <FooterComp/>
 </template>
+<script>
+
+import NavbarComp from './components/NavbarComp.vue';
+import FooterComp from './components/FooterComp.vue';
+
+export default {
+  components: {
+    NavbarComp,
+    FooterComp
+}
+}
+
+</script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Varela+Round&display=swap');
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
