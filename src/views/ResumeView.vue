@@ -1,37 +1,42 @@
 <template>
-    <section id="About" data-aos="fade-up">
+    <section id="About">
         <div class="container" >
             <h1 class="about-heading">Resume</h1>
         </div>
         <div class="container">
-            <div>
                 <h2 class="skills-heading p-3">Education & Experience</h2>
-                <ul>
-                    <li>
-                        High School (2019-2021)
-              <li><strong>Al Azhar High School</strong></li>
-                    </li>
-                    <br>
-                    <li>
-                        (2023- current)
-              <li><strong>Life Choices Coding Academy</strong></li>
-                    </li>
-                    <br>
-                    <li>
-                        Institute of Islamic Studies
-          <li><strong>Student Teacher (2018-2020)</strong></li>
-                    </li>
-                </ul>
-            </div>
         </div>
+        <div v-if="education">
+        <ResumeComp v-for="education of education" :key="education.id" :education="education"/>
+    </div>
+    <div v-else>Loading...</div>
     </section>
 </template>
 <script>
+
+import ResumeComp from '@/components/ResumeComp.vue'
+
 export default {
-    
+    computed: {
+        education() {
+            return this.$store.state.education
+        }
+    },
+
+    mounted() {
+        this.$store.dispatch("getEducation")
+    },
+
+    components: {
+        ResumeComp
+    }
 }
 </script>
 <style scoped>
+
+::-webkit-scrollbar {
+  display: none;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Varela+Round&display=swap');
 #About {

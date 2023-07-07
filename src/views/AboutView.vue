@@ -1,5 +1,5 @@
 <template>
-  <section id="About" data-aos="fade-up">
+  <section id="About">
     <div class="container">
       <div class="row">
         <div class="col-md-4 p-5">
@@ -51,7 +51,10 @@ export default {
 }
 </script>
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Varela+Round&display=swap');
+::-webkit-scrollbar {
+  display: none;
+}
+
 #About {
   background-color: rgb(41, 41, 41) !important ;
   color: white;
@@ -106,7 +109,7 @@ a:hover {
   text-decoration: none;
 }
 .img-fluid {
-  padding-bottom: 5rem;
+  /* padding-bottom: 5rem; */
   border: solid blueviolet;
 }
 

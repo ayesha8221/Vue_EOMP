@@ -1,5 +1,5 @@
 <template>
-    <section id="About" data-aos="fade-up">
+    <section id="About">
     <div class="container">
       <div class="row">
         <div class="col-md-4 p-5">
@@ -38,6 +38,10 @@ export default {
 }
 </script>
 <style scoped>
+::-webkit-scrollbar {
+  display: none;
+}
+
 #About {
   background-color: rgb(41, 41, 41) !important ;
   color: white;
@@ -65,6 +69,12 @@ export default {
   top: 50%;
   position: absolute;
 }
+
+.col-md-4.p-5.p {
+  padding-top: 150px;
+
+}
+
 
 @media screen {
     

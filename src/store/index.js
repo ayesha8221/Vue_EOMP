@@ -10,7 +10,7 @@ export default createStore({
     project: null,
     //education and experience
     education: null,
-    education: null
+    education: null,
   },
 
   mutations: {
@@ -54,6 +54,21 @@ export default createStore({
         ).json();
         if (projects) {
           context.commit("setProjects", projects);
+        } else {
+          alert("ERROR");
+        }
+      } catch (e) {
+        console.error(error);
+      }
+    },
+    // Education&Experience
+    async getEducation(context){
+      try {
+        let { education } = await (
+          await fetch("https://ayesha8221.github.io/data/db.json")
+        ).json();
+        if (education) {
+          context.commit("setEducation", education);
         } else {
           alert("ERROR");
         }

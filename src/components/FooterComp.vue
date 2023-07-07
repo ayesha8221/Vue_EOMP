@@ -1,8 +1,4 @@
 <template>
-    <!-- <nav class="navbar fixed-bottom bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a> -->
-    <footer></footer>
     <div class="footer">
         <div class="social">
             <div class="icon">
@@ -25,13 +21,7 @@
             </a>
             </div>
     </div>
-    <!--copyright-->
-    <div id="copyright" class="text-center p-2">
-            <p>@Copyrights Reserved by Ayesha Galant 2023.</p>
     </div>
-    </div>
-  <!-- </div> -->
-<!-- </nav> -->
 </template>
 <script>
 export default {
@@ -59,20 +49,12 @@ img{
     justify-content: center;
     gap: 10px;
     bottom: 50%;
-    background-color: #A491B8;
+    background-color: blueviolet;
     translate: transform rotate -90deg
   }
   .social a :hover{
     transition: 0.3s;
     padding-inline: 5px;
   }
-  /* #copyright{
-    display: flex;
-    justify-content: center;
-    background-color: #A491B8;
-    font-family: 'Dancing Script', cursive;
-    color:#361B57;
-    font-size: 20px;
-  } */
     
 </style>

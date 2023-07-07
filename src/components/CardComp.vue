@@ -1,9 +1,14 @@
 <template>
-  <div class="container">
-    <img :src="testimonial.image" :alt="testimonial.name" id="testimonial-imgs">
-           <h4 class="title">{{ testimonial.name }}</h4>
-            <p class="desc">{{ testimonial.desc }}</p>
-            </div>
+  <div class="container" >
+    <div class="card" style="width: 16rem;">
+  <img :src="testimonial.image" class="card-img-top" :alt="testimonial.name">
+  <div class="card-body">
+    <h5 class="card-title">{{ testimonial.name }}</h5>
+    <p class="card-text">{{ testimonial.desc }}</p>
+  </div>
+</div>
+  </div>
+            
 </template>
 <script>
 export default {
@@ -32,11 +37,22 @@ body {
 .container {
   margin-top: 60px;
   /* padding-top: 60px; */
-   width: 450px;
+   width: 275px;
    height:auto;
-   border: solid blueviolet;
-   /* background-color: blueviolet !important; */
-  
+   /* border: solid blueviolet; */
+   background-color: black !important;
+
+}
+
+.card {
+  background-color: black;
+  color: blueviolet;
+}
+
+#Testimonials {
+  background-color: rgb(41, 41, 41) !important ;
+  color: white;
+  min-height: 100vh;
 }
   
 </style>

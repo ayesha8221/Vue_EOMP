@@ -1,15 +1,14 @@
 <template>
   <div class="container">
-    <img :src="project.image" :alt="project.name" id="project-imgs">
-           <h4 class="title">{{ project.title }}</h4>
-            <p class="desc">{{ project.desc }}</p>
-             <button class="butt">
-              <a :href="project.link">{{ project.title }}</a>
-            </button>
-             <button class="butt">
-              <a href="https://github.com/" target="_blank">Github</a>
-              </button>
-            </div>
+    <div class="card" style="width: 18rem;">
+  <img :src="project.image" class="card-img-top" :alt="project.title">
+  <div class="card-body">
+    <h5 class="card-title">{{ project.title }}</h5>
+    <p class="card-text">{{ project.desc }}</p>
+    <a :href="project.link" class="btn btn-primary">Check me out</a>
+  </div>
+</div>
+  </div>
 </template>
 <script>
 export default {
@@ -37,11 +36,10 @@ body {
 
 .container {
   margin-top: 60px;
-  /* padding-top: 60px; */
-   width: 450px;
-   height:auto;
-   border: solid blueviolet;
-  
+}
+
+.card {
+  border: blueviolet solid;
 }
   
 </style>

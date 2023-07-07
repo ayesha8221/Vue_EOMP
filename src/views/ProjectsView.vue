@@ -1,8 +1,17 @@
 <template>
-    <div v-if="projects" class="flex-container row row row-col-5">
+    <section id="Projects">
+    <div class="container">
+        <h1 class="projects-heading">Projects</h1>
+        <div class="container">
+           <div v-if="projects" class="flex-container row row row-col-5">
         <ModalComp v-for="project of projects" :key="project.id" :project="project"/>
     </div>
     <div v-else>Loading...</div>
+</div> 
+        </div>
+    
+    
+    </section>
 </template>
 <script>
 
@@ -23,9 +32,41 @@ export default {
 }
 
 </script>
-<style>
+<style scoped>
 ::-webkit-scrollbar {
   display: none;
+}
+
+#Projects {
+  background-color: rgb(41, 41, 41) !important ;
+  color: white;
+  min-height: 100vh;
+}
+
+.container {
+  padding-top: 60px;
+}
+
+.projects-heading {
+  color: blueviolet;
+ font-family: 'Varela Round', sans-serif;
+  font-weight: 2rem;
+  font-size: 5rem;
+  margin-top: 3rem;
+}
+.projects-heading:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: auto;
+  background: #000;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
+.card-body {
+    background-color: #000 !important;
 }
 
     
