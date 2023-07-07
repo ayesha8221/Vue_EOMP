@@ -30,10 +30,12 @@ body {
 }
 
 .container {
+  margin-top: 60px;
   /* padding-top: 60px; */
    width: 450px;
    height:auto;
    border: solid blueviolet;
+   /* background-color: blueviolet !important; */
   
 }
   
