@@ -10,16 +10,17 @@
           />
         </div>
         <div class="col-md-8 p-5">
-          <h1 class="about-heading">About Me</h1>
+          <h1 class="about-heading">About</h1>
           <hr>
           <p>
-Dedicated web developer with a strong passion for continuous learning and staying up-to-date with the latest industry trends. Proficient in a wide range of in-demand skills, including HTML5, CSS3, Bootstrap, JavaScript, Vue.js and Java. I am expanding expertise in MySQL and Node.
+Dedicated web developer with a strong passion for continuous learning and staying up-to-date with the latest industry trends. 
+Proficient in a wide range of in-demand skills, including HTML5, CSS3, Bootstrap, JavaScript, Vue.js, MySQL and Nodejs. I am expanding expertise in MySQL and Node.
 <p>I am committed to creating responsive and accessible web applications that showcase creativity and innovation.
  Adept at leveraging various technologies to build dynamic and engaging user experiences. Seeking opportunities to contribute to challenging projects and build a diverse portfolio of impressive web applications.</p>
           </p>
         </div>
           <h2 class="skills-heading p-3">Technical Skills</h2>
-          <div class="container d-inline-block justify-content center align-items-center">
+          <div class="container d-inline-block justify-content center">
             <div class="row p-5">
                <div class="col-md-2 p-1">
                   <img class="vuejs" src="https://i.postimg.cc/KcfsXSQ0/vue-js-icon.png" alt="VueJs">
@@ -36,9 +37,9 @@ Dedicated web developer with a strong passion for continuous learning and stayin
                    <div class="col-md-2 p-1">
                     <img src="https://i.postimg.cc/Zq8VVrX9/721671.png" alt="Javascript">
               </div>
-                   <div class="col-md-2 p-1">
+                   <!-- <div class="col-md-2 p-1">
                     <img src="https://i.postimg.cc/XJZ0zN6B/152760.png" alt="Java">
-              </div>
+              </div> -->
                       </div>
               </div>
             </div>
