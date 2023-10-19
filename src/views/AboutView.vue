@@ -10,7 +10,7 @@
           />
         </div>
         <div class="col-md-8 p-5">
-          <h1 class="about-heading">About</h1>
+          <h1 class="about-heading">About Me</h1>
           <hr>
           <p>
 Dedicated web developer with a strong passion for continuous learning and staying up-to-date with the latest industry trends. 
