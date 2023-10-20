@@ -3,6 +3,10 @@
         <div class="container" >
             <h1 class="about-heading">Resume</h1>
         </div>
+        <div>
+          <button><a href="https://docs.google.com/document/d/1r5Fkc8GVzWnQ6nP7JXzhz4d2n9uXEZDH9QlRFmGxoDw/edit?usp=sharing" download target="_blank">
+   Download Resume</a></button>
+        </div>
         <div class="container">
                 <h2 class="skills-heading p-3">Education & Experience</h2>
         </div>

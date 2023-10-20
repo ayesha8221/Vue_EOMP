@@ -82,7 +82,7 @@ body {
 
 
 .bgText {
-    color: rgb(156, 156, 156);
+    color: rgb(206, 206, 206);
   width: 47ch;
   animation: typing 2s steps(22), blink 1s step-end infinite alternate;
   white-space: nowrap;
@@ -104,12 +104,18 @@ body {
   background-color: blueviolet;
   border: solid blueviolet;
   margin-right: 100px;
+  height: 40px;
+  width: 90px;
+  border-radius: 20px;
 }
 .btnc {
   color: white;
   background-color: blueviolet;
   border: solid blueviolet;
   margin-right: 800px;
+  height: 40px;
+  width: 90px;
+  border-radius: 20px;
 }
 
 </style>

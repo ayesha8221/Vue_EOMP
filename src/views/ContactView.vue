@@ -4,17 +4,14 @@
       <div class="row">
         <div class="col-md-4 p-5">
             <p>
-                <strong>Phone:</strong>
-                098 765 4321<br>
 
-<strong>E-Mail:</strong> ayesha.galant@gmail.com<br>
+<strong>E-Mail:</strong> ayesha.glnt012@gmail.com<br>
 
 <strong>LinkedIn:</strong> Ayesha Galant<br>
 
-<strong>Address:</strong>
-Eastgate Bird Park <br>
-Unit 15 <br>
-Rosebank<br>
+<strong>Location:</strong>
+Cape Town, <br>
+Southern Suburbs<br>
 
 <p>Looking forward to chatting to you👋</p>
             </p>
