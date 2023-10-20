@@ -23,13 +23,13 @@
                   <img class="vuejs" src="https://i.postimg.cc/KcfsXSQ0/vue-js-icon.png" alt="VueJs">
                 </div>
                      <div class="col-md-2 p-1">
-                  <img src="https://i.postimg.cc/8cF9C7nT/174854.png" alt="HTML5" class="zoom-on-hover"/>
+                  <img src="https://i.postimg.cc/8cF9C7nT/174854.png" alt="HTML5"/>
                      </div>
               <div class="col-md-2 p-1">
-                  <img src="https://i.postimg.cc/KYcRHTYq/5968672.png" alt="Bootstrap" class="zoom-on-hover">
+                  <img src="https://i.postimg.cc/KYcRHTYq/5968672.png" alt="Bootstrap">
               </div>
               <div class="col-md-2 p-1">
-                  <img src="https://i.postimg.cc/65pgq1gM/732190.png" alt="CSS3" class="zoom-on-hover">
+                  <img src="https://i.postimg.cc/65pgq1gM/732190.png" alt="CSS3">
                 </div>
                    <div class="col-md-2 p-1">
                     <img src="https://i.postimg.cc/Zq8VVrX9/721671.png" alt="Javascript">

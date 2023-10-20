@@ -75,5 +75,20 @@ export default {
 .edu {
     border: solid blueviolet;
 }
+
+button {
+  color: rgb(255, 255, 255);
+  background-color: blueviolet;
+  border: solid blueviolet;
+  /* margin-right: 100px; */
+  height: 40px;
+  /* width: 90px; */
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
     
 </style>

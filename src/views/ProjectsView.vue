@@ -3,7 +3,7 @@
     <div class="container">
         <h1 class="projects-heading">Projects</h1>
         <div class="container">
-           <div v-if="projects" class="flex-container row row row-col-5">
+           <div v-if="projects" class="flex-container row row row-cols-4">
         <ModalComp v-for="project of projects" :key="project.id" :project="project"/>
     </div>
     <div v-else>Loading...</div>
@@ -37,14 +37,18 @@ export default {
   display: none;
 }
 
-#Projects {
+body {
   background-color: rgb(41, 41, 41) !important ;
+}
+
+#Projects {
+  /* background-color: rgb(41, 41, 41) !important ; */
   color: white;
   min-height: 100vh;
 }
 
 .container {
-  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .projects-heading {
