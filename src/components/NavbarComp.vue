@@ -34,6 +34,7 @@ export default {
 ul {
   background-image: none;
   background-color: transparent; /* Make the menu become transparent */
+  background: rgb(41, 41, 41);
   border-radius: 0px;
   border: 0;
   box-shadow: none;

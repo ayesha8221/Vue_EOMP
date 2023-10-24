@@ -42,13 +42,17 @@ body {
 }
 
 #Projects {
-  /* background-color: rgb(41, 41, 41) !important ; */
+  background-color: rgb(41, 41, 41) !important ;
   color: white;
   min-height: 100vh;
 }
 
 .container {
   padding-bottom: 40px;
+}
+
+ul {
+  background-color: rgb(41, 41, 41) !important ;
 }
 
 .projects-heading {
@@ -67,11 +71,9 @@ body {
   right: 0;
   top: 50%;
   position: absolute;
+  background-color: rgb(41, 41, 41) !important ;
 }
 
-.card-body {
-    background-color: #000 !important;
-}
 
     
 </style>

@@ -65,8 +65,10 @@ body {
   height: 405px;
   width:300px;
   text-align: center;
+  background: #000 !important;
   /* justify-content: center; */
   align-items: center;
+  color: white;
 }
 
 .picture {
