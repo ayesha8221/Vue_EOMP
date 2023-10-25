@@ -71,7 +71,7 @@ ul {
   right: 0;
   top: 50%;
   position: absolute;
-  background-color: rgb(41, 41, 41) !important ;
+  background-color: rgb(72, 72, 72) !important ;
 }
 
 

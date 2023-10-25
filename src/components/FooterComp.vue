@@ -45,8 +45,8 @@ img{
     display: flex;
     flex-direction: column; /* Stack social icons vertically */
     align-items: center; /* Center the icons horizontally */
-    background-color: blueviolet;
-    transform: rotate(-90deg); /* Rotate the container */
+    /* background-color: blueviolet; */
+    /* transform: rotate(-90deg); */
     transform-origin: bottom right; /* Set rotation origin to the bottom right corner */
     padding: 10px; /* Add padding for spacing */
   }

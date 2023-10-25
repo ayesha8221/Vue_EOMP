@@ -55,6 +55,8 @@ export default {
 }
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -92,7 +94,7 @@ export default {
   font-size: 2rem;
   padding-top: 5rem;
 }
-.fa-brands,
+
 .fab {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
@@ -104,6 +106,7 @@ export default {
 #pin {
   font-size: 10px;
 }
+
 a {
   text-decoration: none;
   color: white;
