@@ -11,6 +11,8 @@ export default createStore({
     //education and experience
     education: null,
     education: null,
+    //categories
+    // categories: []
   },
 
   mutations: {
@@ -61,6 +63,17 @@ export default createStore({
         console.error(error);
       }
     },
+
+    // async getProjects({ commit }) {
+    //   // Fetch your projects data here
+  
+    //   // Extract unique categories from projects
+    //   const categories = [...new Set(projects.map(project => project.category))];
+      
+    //   commit('setProjects', projects);
+    //   commit('setCategories', categories);
+    // },
+
     // Education&Experience
     async getEducation(context){
       try {
