@@ -1,20 +1,10 @@
 <template>
-  <!-- <div class="container">
-    <div class="card" style="width: 18rem;">
-  <img :src="project.image" class="card-img-top" :alt="project.title">
-  <div class="card-body">
-    <h5 class="card-title">{{ project.title }}</h5>
-    <p class="card-text">{{ project.desc }}</p>
-    <a :href="project.link" class="btn btn-primary">Check me out</a>
-  </div>
-</div>
-  </div> -->
   <div>
-        <div class="container">
-    <div class="card " id="body">
+  <div class="col d-flex justify-content-center">
+    <div class="card my-4" id="body">
         <img :src="project.image" :alt="project.title" class="picture" />
         <h5>{{ project.title }}</h5>
-        <p> {{ project.desc }}</p>
+        <p>{{ project.desc }}</p>
         <button class="button"><a :href="project.link">Check me out</a></button>
     </div>
   </div>
@@ -65,10 +55,11 @@ body {
   height: 405px;
   width:300px;
   text-align: center;
-  background: #000 !important;
+  background: #9f86c0 !important;
   /* justify-content: center; */
   align-items: center;
-  color: white;
+  color: rgb(221, 221, 219);
+  -webkit-text-stroke: black;
 }
 
 .picture {

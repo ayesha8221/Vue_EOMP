@@ -94,29 +94,11 @@
     </div>
   </div>
 </div>
-    <!-- </div> -->
-    <!-- <div v-else>Loading...</div> -->
     </section>
 </template>
 <script>
 
-// import ResumeComp from '@/components/ResumeComp.vue'
-
 export default {
-  // props: ["education"],
-    // computed: {
-    //     education() {
-    //         return this.$store.state.education
-    //     }
-    // },
-
-    // mounted() {
-    //     this.$store.dispatch("getEducation")
-    // },
-
-    // components: {
-    //     ResumeComp
-    // }
 }
 </script>
 <style scoped>

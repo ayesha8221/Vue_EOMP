@@ -34,7 +34,7 @@ export default {
 ul {
   background-image: none;
   background-color: transparent; /* Make the menu become transparent */
-  background: rgb(41, 41, 41);
+  background: #b7a7c3;
   border-radius: 0px;
   border: 0;
   box-shadow: none;
@@ -47,7 +47,7 @@ ul {
 }
 
 a.nav-link {
-  color: blueviolet !important;
+  color: rgb(221, 221, 219) !important;
 }
 
     

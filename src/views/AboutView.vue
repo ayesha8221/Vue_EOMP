@@ -12,9 +12,9 @@
         <div class="col-md-8 p-5">
           <h1 class="about-heading">About Me</h1>
           <hr>
-          <p>Hello, I'm Ayesha Galant, a passionate and dedicated web developer based in Lansdowne, Southern Suburbs. My journey into the world of technology began with a burning desire to break into the tech field. Since then, I've embarked on a comprehensive web development program, equipping myself with a wide range of skills that include HTML5, CSS3, Bootstrap, JavaScript, Vue.js, MySQL, and Node.js.</p>
+          <p class="text-start">Hello, I'm Ayesha Galant, a passionate and dedicated web developer based in Lansdowne, Southern Suburbs. My journey into the world of technology began with a burning desire to break into the tech field. Since then, I've embarked on a comprehensive web development program, equipping myself with a wide range of skills that include HTML5, CSS3, Bootstrap, JavaScript, Vue.js, MySQL, and Node.js.</p>
           <br>
-          <p>My enthusiasm for web development is driven by the ever-evolving nature of the industry, and I've taken the initiative to further my knowledge by venturing into the realm of AWS cloud computing. I believe that in this rapidly changing digital landscape, continuous learning and adaptation are key to success.</p>
+          <p class="text-start"> My enthusiasm for web development is driven by the ever-evolving nature of the industry, and I've taken the initiative to further my knowledge by venturing into the realm of AWS cloud computing. I believe that in this rapidly changing digital landscape, continuous learning and adaptation are key to success.</p>
         </div>
           <h2 class="skills-heading p-3">Technical Skills</h2>
           <div class="container d-inline-block justify-content center">
@@ -62,17 +62,14 @@ export default {
 }
 
 #About {
-  background-color: rgb(41, 41, 41) !important ;
-  color: white;
+  background-color: #b7a7c3 !important ;
+  color: black;
   min-height: 100vh;
 }
 
-.container {
-  padding-top: 60px;
-}
 
 .about-heading {
-  color: blueviolet;
+  color: #a58298;
  font-family: 'Varela Round', sans-serif;
   font-weight: 2rem;
   font-size: 7rem;
@@ -89,9 +86,9 @@ export default {
   position: absolute;
 }
 .skills-heading {
-  color: blueviolet;
+  color: #a58298;
   font-family: 'Varela Round', sans-serif;
-  font-size: 2rem;
+  font-size: 3.5rem;
   padding-top: 5rem;
 }
 
@@ -119,6 +116,7 @@ a:hover {
   /* padding-bottom: 5rem; */
   /* border: solid blueviolet; */
   border-radius: 20px;
+  padding-top: 70px;
 }
 
 .col-md-2.p-1 {
