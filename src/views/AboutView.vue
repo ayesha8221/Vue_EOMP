@@ -63,7 +63,7 @@ export default {
 
 #About {
   background-color: #b7a7c3 !important ;
-  color: black;
+  color: rgb(221, 221, 219);
   min-height: 100vh;
 }
 

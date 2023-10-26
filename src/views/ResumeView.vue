@@ -109,7 +109,7 @@ export default {
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Varela+Round&display=swap');
 #About {
-  background-color: rgb(41, 41, 41) !important ;
+  background-color:#b7a7c3 !important ;
   color: white;
   min-height: 100vh;
 }
@@ -120,11 +120,11 @@ export default {
 }
 
 .about-heading {
-  color: blueviolet;
+  color: #a58298;
  font-family: 'Varela Round', sans-serif;
   font-weight: 2rem;
   font-size: 7rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 .about-heading:after {
   content: "";
@@ -135,6 +135,10 @@ export default {
   right: 0;
   top: 50%;
   position: absolute;
+}
+
+.skills-heading.p-3 {
+  color: #a58298;
 }
 
 .edu {
@@ -152,7 +156,7 @@ export default {
 }
 
 button {
-  color: rgb(255, 255, 255);
+  color: rgb(221, 221, 219);
   background-color: blueviolet;
   border: solid blueviolet;
   /* margin-right: 100px; */
@@ -163,21 +167,50 @@ button {
 
 a {
   text-decoration: none;
-  color: white;
+  color:rgb(221, 221, 219);
+  /* font-size: 30px; */
+}
+
+p{
+  color: rgb(221, 221, 219);
+  font-size: 16px;
 }
 
 /* timeline */
 
 /*= timeline css for data in both side =*/
-.timeline-both-side{float: left; width: 96%; margin: 20px 2% 50px; position: relative; box-sizing: border-box;}
-.timeline-both-side:before{background-color: blueviolet; bottom: 0; content: " "; left: 50%; position: absolute; top: 0; width: 1px;}
-.timeline-both-side:after{border-radius: 50%; bottom: -22px; content: ""; height: 18px; left: 50%; margin-left: -11px; position: absolute; width: 18px; border: 2px solid blueviolet;}
+.timeline-both-side{
+  float: left; width: 96%; 
+  margin: 20px 2% 50px; 
+  position: relative; 
+  box-sizing: border-box;
+}
+.timeline-both-side:before{
+  background-color: #a58298; 
+  bottom: 0; 
+  content: " "; 
+  left: 50%; 
+  position: absolute; 
+  top: 0; 
+  width: 1px;
+}
+.timeline-both-side:after{
+  border-radius: 50%; 
+  bottom: -22px; 
+  content: ""; 
+  height: 18px; 
+  left: 50%; 
+  margin-left: -11px; 
+  position: absolute; 
+  width: 18px; 
+  border: 2px solid#a58298;
+}
 .timeline-both-side li {position: relative; float: left; width: 100%;}
-.timeline-both-side li .border-line{background-color:blueviolet; font-size: 1.4em; height: 1px; left: 50%; margin-left: -8%; position: absolute; text-align: center; top: 50%; width: 8%; z-index: 100;}
+.timeline-both-side li .border-line{background-color:#a58298; font-size: 1.4em; height: 1px; left: 50%; margin-left: -8%; position: absolute; text-align: center; top: 50%; width: 8%; z-index: 100;}
 .timeline-both-side li.opposite-side .border-line{left: auto; right: 50%; margin-left: 0; margin-right: -8%;}
-.timeline-both-side li .border-line:before {background-color: blueviolet; content: ""; height: 7px; position: absolute; right: -4px; top: -3px; width: 7px;}
+.timeline-both-side li .border-line:before {background-color: #a58298; content: ""; height: 7px; position: absolute; right: -4px; top: -3px; width: 7px;}
 .timeline-both-side li.opposite-side .border-line:before{left: -4px; right: auto;}
-.timeline-both-side li .timeline-description{border-radius: 20px; background-color: rgb(41, 41, 41); border: 1px solid blueviolet; float: left; font-size: 13px; padding: 10px; position: relative; width: 42%;}
+.timeline-both-side li .timeline-description{border-radius: 20px; background-color:  #b498a9; border: 1px solid #a58298; float: left; font-size: 13px; padding: 10px; position: relative; width: 42%;}
 .timeline-both-side li.opposite-side .timeline-description{float: right;}
 /*= timeline css for data in both side end =*/
     

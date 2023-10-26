@@ -1,19 +1,40 @@
 <template>
-  <div class="container" >
-    <div class="card" style="width: 16rem;">
-  <img :src="testimonial.image" class="card-img-top" :alt="testimonial.name">
-  <div class="card-body">
-    <h5 class="card-title">{{ testimonial.name }}</h5>
-    <p class="card-text">{{ testimonial.desc }}</p>
+  <div class="container">
+    <BCarousel
+      id="carouselExampleSlidesOnly"
+      v-model="activeSlide"
+      :interval="3000"
+      controls
+      indicators
+      background="#333"
+    >
+      <BCarouselSlide
+        :key="testimonial.id"
+      >
+        <img :src="testimonial.image" class="d-block w-100" :alt="testimonial.name">
+        <h5 class="card-title">{{ testimonial.name }}</h5>
+        <p class="card-text">{{ testimonial.desc }}</p>
+      </BCarouselSlide>
+    </BCarousel>
   </div>
-</div>
-  </div>
-            
 </template>
+
+import { BCarousel, BCarouselSlide } from 'bootstrap-vue';
+
 <script>
 export default {
-  props: ["testimonial"]
-}
+  props:
+    ["testimonial"],
+  data() {
+    return {
+      activeSlide: 0,
+    };
+  },
+  components: {
+    BCarousel,
+    BCarouselSlide,
+  },
+};
 </script>
 <style scoped>
 
@@ -34,20 +55,9 @@ body {
   text-underline-offset: none;
 }
 
-.container {
-  margin-top: 60px;
-  /* padding-top: 60px; */
-   width: 275px;
-   height:auto;
-   /* border: solid blueviolet; */
-   background-color: black !important;
 
-}
 
-.card {
-  background-color: black;
-  color: blueviolet;
-}
+
 
 #Testimonials {
   background-color: rgb(41, 41, 41) !important ;

@@ -33,9 +33,10 @@
             </button>
           </div>
         </div>
-         <div class="flex-container row row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+         <div v-if="projects" class="flex-container row row row-cols-1 row-cols-sm-2 row-cols-lg-4">
           <ModalComp v-for="project in filteredProjects" :key="project.id" :project="project"/>
         </div>
+        <div v-else><Loader/></div>
         </div>
       </div>
     <!-- </div> -->
@@ -43,6 +44,7 @@
 </template>
 <script>
 import ModalComp from '@/components/ModalComp.vue';
+import Loader from '@/components/Loader.vue';
 
 export default {
   data() {
@@ -72,7 +74,7 @@ export default {
   mounted() {
     this.$store.dispatch('getProjects');
   },
-  components: { ModalComp },
+  components: { ModalComp , Loader},
 };
 </script>
 <style scoped>
