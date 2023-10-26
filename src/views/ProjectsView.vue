@@ -53,7 +53,18 @@ body {
 
 ul {
   background-color: rgb(41, 41, 41) !important ;
+  background-image: none;
+  /* background-color: transparent !important;  */
+  border: 0;
+  box-shadow: none;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
+
 
 .projects-heading {
   color: blueviolet;

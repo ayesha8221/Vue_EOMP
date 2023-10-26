@@ -69,7 +69,7 @@ body {
 
 .ul {
   background-image: none;
-  background-color: transparent; 
+  background-color: transparent !important; 
   border: 0;
   box-shadow: none;
   padding: 10px;
