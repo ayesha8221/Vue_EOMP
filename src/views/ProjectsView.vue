@@ -117,7 +117,7 @@ ul {
   display: inline-block;
   border-radius: 10px;
   background: #b498a9;
-  transition: background-color 0.4s ease-in-out;
+  margin-bottom: 20px;
 }
 
 button{
