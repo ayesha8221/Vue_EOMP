@@ -82,12 +82,9 @@ export default {
   display: none;
 }
 
-body {
-  background-color: rgb(168, 168, 168) !important ;
-}
 
 #Projects {
-  background-color: #b7a7c3 !important ;
+  background-color: #b7a7c3 !important  ;
   color: white;
   min-height: 100vh;
 }
@@ -120,7 +117,7 @@ ul {
   margin-bottom: 20px;
 }
 
-button{
+button {
   background: transparent;
   border: none;
   align-items: center;

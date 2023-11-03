@@ -51,7 +51,7 @@ body {
   overflow-x: hidden;
 }
 .bgImg {
-  background-image: url(https://i.postimg.cc/wBPLvM9f/nikita-kachanovsky-OVbe-SXRk-9-E-unsplash-1-1.jpg);
+  background-image: url(https://i.postimg.cc/x8gW9dh7/premium-photo-1683631774703-f43d458bcf74-transformed-Cropped.jpg);
     position: relative;
     background-size: cover;
     height: 100vh;
