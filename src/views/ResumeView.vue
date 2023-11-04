@@ -20,7 +20,7 @@
             	<div class="border-line"></div>
                 <div class="timeline-description">
                   <p>
-                    <img class="haafith" src="https://i.postimg.cc/CxgtbDFP/download.png" alt="LC Studio">
+                    <img class="haafith" src="https://i.postimg.cc/Dy046mN8/images-removebg-preview-1.png" alt="LC Studio">
                     <p>
                       <strong>
                         LC Studio - Oct 2023
@@ -35,7 +35,7 @@
             	<div class="border-line"></div>
                 <div class="timeline-description">
                   <p>
-                      <img class="right" src="https://i.postimg.cc/vm30rsCN/download.png" alt="life choices academy">
+                      <img class="right" src="https://i.postimg.cc/yxPhZ5Wt/download-removebg-preview.png" alt="life choices academy">
                       <p>
                         <strong> Life Choices Academy - (Apr - Sept 2023)</strong>
                       </p>
@@ -53,14 +53,13 @@
                     <strong> Al Azhar High School - Matriculated 2021</strong>
                       </p> 
                       <p>
-                        Life Sciences
-                        <br>
-                        History
-                        <br>
-                        Mathematics
-                        <br>
+                        Life Sciences,
+                        
+                        History,
+                        
+                        Mathematics,
                         Business Studies
-                        <br>
+                        
                       </p>
                       </p>
                 </div>
@@ -151,7 +150,7 @@ export default {
 }
 
 .right {
-  height: 120px;
+  height: 90px;
   float: right;
 }
 

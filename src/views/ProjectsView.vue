@@ -1,5 +1,6 @@
 
 <template>
+   <NavbarComp/>
   <section id="Projects">
     <div class="container">
       <h1 class="projects-heading">Projects</h1>

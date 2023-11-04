@@ -1,7 +1,7 @@
 <template>
-  <NavbarComp/>
+  <NavbarComp v-if="!isHomePage" />
   
-  <router-view/>
+  <router-view/> 
   <FooterComp/>
 </template>
 <script>
@@ -13,7 +13,18 @@ export default {
   components: {
     NavbarComp,
     FooterComp
-}
+  },
+  data() {
+    return {
+      isHomePage: false,
+    };
+  },
+  watch: {
+    $route(to) {
+      // Check if the route is the home page and set isHomePage accordingly
+      this.isHomePage = to.name === "home"; // Assuming your home route is named "home"
+    },
+  },
 }
 
 </script>

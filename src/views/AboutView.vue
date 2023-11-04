@@ -5,18 +5,32 @@
         <div class="col-md-4 p-5">
           <img
             class="img-fluid"
-            src="https://i.postimg.cc/J73RY3xR/IMG-1353-1.jpg"
+            src="https://i.postimg.cc/D07TyW9F/C12-Ayesha-Galant-Class1-1-removebg-preview.png"
             alt="Ayesha Galant"
           />
         </div>
         <div class="col-md-8 p-5">
           <h1 class="about-heading">About Me</h1>
           <hr>
-          <p class="text-start">Hello, I'm Ayesha Galant, a passionate and dedicated web developer based in Lansdowne, Southern Suburbs. My journey into the world of technology began with a burning desire to break into the tech field. Since then, I've embarked on a comprehensive web development program, equipping myself with a wide range of skills that include HTML5, CSS3, Bootstrap, JavaScript, Vue.js, MySQL, and Node.js.</p>
+          <p class="text-start">I am  <strong class="strong">Ayesha Galant</strong>,  a passionate and dedicated web developer based in Lansdowne, Southern Suburbs. My journey into the world of technology began with a burning desire to break into the tech field. Since then, I've embarked on a comprehensive web development program, equipping myself with a wide range of skills that include HTML5, CSS3, Bootstrap, JavaScript, Vue.js, MySQL, and Node.js.</p>
           <br>
           <p class="text-start"> My enthusiasm for web development is driven by the ever-evolving nature of the industry, and I've taken the initiative to further my knowledge by venturing into the realm of AWS cloud computing. I believe that in this rapidly changing digital landscape, continuous learning and adaptation are key to success.</p>
+          <div>
+            <span>
+              Full Name: Ayesha Galant
+            </span>
+            <br>
+            <span>
+              Date of Birth: 28 December 1999
+            </span>
+            <br>
+            <span>
+              Gender: Female
+            </span>
+          </div>
         </div>
-          <h2 class="skills-heading p-3">Technical Skills</h2>
+
+          <h2 class="skills-heading">Technical Skills</h2>
           <div class="container d-inline-block justify-content center">
             <div class="row p-5">
                <div class="col-md-2 p-1">
@@ -50,6 +64,9 @@
   </section>
 </template>
 <script>
+
+
+
 export default {
 
 }
@@ -62,16 +79,16 @@ export default {
 }
 
 #About {
-  background-color: #b7a7c3 !important ;
-  color: rgb(221, 221, 219);
+  background-color: #E7A552 !important ;
+  color: black;
   min-height: 100vh;
 }
 
 
 .about-heading {
-  color: #a58298;
+  color: black;
  font-family: 'Varela Round', sans-serif;
-  font-weight: 2rem;
+  font-weight: 3rem;
   font-size: 7rem;
   margin-top: 3rem;
 }
@@ -86,10 +103,14 @@ export default {
   position: absolute;
 }
 .skills-heading {
-  color: #a58298;
+  color: black;
   font-family: 'Varela Round', sans-serif;
   font-size: 3.5rem;
-  padding-top: 5rem;
+  /* padding-top: 3rem; */
+}
+
+.text-start {
+  font-size: 16px;
 }
 
 .fab {
@@ -101,7 +122,7 @@ export default {
   align-items: center;
 }
 #pin {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 a {
@@ -115,8 +136,14 @@ a:hover {
 .img-fluid {
   /* padding-bottom: 5rem; */
   /* border: solid blueviolet; */
-  border-radius: 20px;
-  padding-top: 70px;
+  /* border-radius: 20px; */
+  padding-top: 40px;
+  max-height: 100%;
+}
+
+.strong {
+  font-weight: 750;
+  font-size: 18px;
 }
 
 .col-md-2.p-1 {
