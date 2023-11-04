@@ -3,8 +3,8 @@
   <div id="Testimonials">
     <!-- <img class="stars" src="https://i.postimg.cc/CL1FqwSr/istockphoto-826581600-2048x2048-removebg-preview.png" alt="5-stars"> -->
     <h1 class="testimonials-heading">Testimonials</h1>
-    <img class="stars" src="https://i.postimg.cc/CL1FqwSr/istockphoto-826581600-2048x2048-removebg-preview.png" alt="5-stars">
-    <div class="container justify-content-center">
+    <!-- <img class="stars" src="https://i.postimg.cc/CL1FqwSr/istockphoto-826581600-2048x2048-removebg-preview.png" alt="5-stars"> -->
+    <div class="container d-flex justify-content-center align-items-center">
      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div v-for="(testimonial, index) in testimonials" :key="testimonial.id" :class="['carousel-item', { 'active': index === 0 }]">
@@ -17,11 +17,11 @@
     </div>
     <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
+      <!-- <span class="sr-only">Previous</span> -->
     </a>
     <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
+      <!-- <span class="sr-only">Next</span> -->
     </a>
   </div> 
     </div>
@@ -74,8 +74,8 @@ img.stars {
   height: 100px;
 }
 .pics {
-  height: 300px;
-  border-radius: 20px;
+  height: 200px;
+  border-radius: 50%;
   background-color: #a58298;
 }
 

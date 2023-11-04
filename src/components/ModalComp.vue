@@ -40,14 +40,14 @@ body {
 
 .card.my-4 {
   /* background:  #dab99a; */
- border: 1px solid #c59360; 
+ border: 1px solid #a58298; 
   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
   transition: all .3s ease-in-out;
   /* border: none; */
 }
 
 .card.my-4:hover{
-  box-shadow: rgba(80, 45, 8, 0.22) 0px 25px 43px;
+  box-shadow: #a58298 0px 25px 43px;
   transform: translate3d(0px, -1.5px, 0px);
 }
 
@@ -55,7 +55,7 @@ body {
   height: 405px;
   width:300px;
   text-align: center;
-  background: #9f86c0 !important;
+  background: #b9aec6 !important;
   /* justify-content: center; */
   align-items: center;
   color: rgb(221, 221, 219);
@@ -63,14 +63,15 @@ body {
 }
 
 .picture {
+  width: 300px;
   height: 250px;
-  width:auto;
+  /* width: fit-content; */
 }
 
 button {
   color: rgb(255, 255, 255);
-  background-color: blueviolet;
-  border: solid blueviolet;
+  background-color:  #a58298;
+  border: solid #b498a9;
   /* margin-right: 100px; */
   height: 40px;
   width: 120px;

@@ -156,8 +156,8 @@ export default {
 
 button {
   color: rgb(221, 221, 219);
-  background-color: blueviolet;
-  border: solid blueviolet;
+  background-color:#a58298;
+  border: solid  #b498a9;
   /* margin-right: 100px; */
   height: 40px;
   /* width: 90px; */

@@ -55,7 +55,11 @@ body {
   overflow-x: hidden;
 }
 .bgImg {
+<<<<<<< HEAD
   background-image: url(https://i.postimg.cc/kXRbpnr9/premium-photo-1683631774703-f43d458bcf74-transformed1.jpg);
+=======
+  background-image: url(https://i.postimg.cc/x8gW9dh7/premium-photo-1683631774703-f43d458bcf74-transformed-Cropped.jpg);
+>>>>>>> a81cedd32201a51b189419cfde6733bcc7e9e1e5
     position: relative;
     background-size: cover;
     height: 100vh;
