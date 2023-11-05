@@ -55,11 +55,7 @@ body {
   overflow-x: hidden;
 }
 .bgImg {
-<<<<<<< HEAD
   background-image: url(https://i.postimg.cc/kXRbpnr9/premium-photo-1683631774703-f43d458bcf74-transformed1.jpg);
-=======
-  background-image: url(https://i.postimg.cc/x8gW9dh7/premium-photo-1683631774703-f43d458bcf74-transformed-Cropped.jpg);
->>>>>>> a81cedd32201a51b189419cfde6733bcc7e9e1e5
     position: relative;
     background-size: cover;
     height: 100vh;
@@ -78,7 +74,7 @@ button.projects {
 color: #CC6E66;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 font-family: Inter;
-font-size: 60px;
+font-size: 70px;
 font-weight: 900;
 }
 
@@ -92,11 +88,11 @@ button.contact {
   background-color: transparent;
   border: none;
   top: 65%;
-  left: 52.3%;
+  left: 53%;
 color: var(--d-9-d-9-d-9, #E39D45);
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 font-family: Inter;
-font-size: 60px;
+font-size: 70px;
 font-weight: 900;
 }
 
@@ -110,12 +106,12 @@ button.about {
   position: absolute;
   background-color: transparent;
   border: none;
-  top: 6.5%;
-  left: 37%;
+  top: 6%;
+  left: 37.5%;
 color: black;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 font-family: Inter;
-font-size: 60px;
+font-size: 70px;
 font-weight: 900;
 }
 
@@ -130,11 +126,11 @@ button.resume {
   background-color: transparent;
   border: none;
   top: 14%;
-  left: 73%;
+  left: 74%;
 color: var(--d-9-d-9-d-9, #5F3A31);
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 font-family: Inter;
-font-size: 60px;
+font-size: 70px;
 font-weight: 900;
 }
 
@@ -145,8 +141,8 @@ button.resume:hover {
 /* Ayesha Galant */
 .myName {
   position: absolute;
-  top: 55%;
-right: 12%;
+  top: 48%;
+right: 18%;
 transform: rotate(44.415deg);
 flex-shrink: 0;
 color: var(--d-9-d-9-d-9, #5F3A31);
@@ -174,7 +170,7 @@ color: var(--d-9-d-9-d-9, #5F3A31);
 /* text-align: center; */
 text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
 /* font-family: Inter; */
-font-size: 70px;
+font-size: 80px;
 font-style: italic;
 font-weight: 800;
 line-height: normal;

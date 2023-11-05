@@ -61,6 +61,9 @@
               </div>
             </div>
           </div>
+          <div>
+      <span class="copyright"> Designed by Ayesha Galant © 2023</span>
+    </div>
   </section>
 </template>
 <script>
@@ -91,6 +94,7 @@ export default {
   font-weight: 3rem;
   font-size: 7rem;
   margin-top: 3rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .about-heading:after {
   content: "";
@@ -106,6 +110,7 @@ export default {
   color: black;
   font-family: 'Varela Round', sans-serif;
   font-size: 3.5rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   /* padding-top: 3rem; */
 }
 
@@ -165,5 +170,15 @@ a:hover {
 .figma {
   height: 120px;
 }
+
+.copyright {
+    color: #000;
+text-align: center;
+/* font-family: Inter; */
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
 
 </style>
