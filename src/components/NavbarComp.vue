@@ -1,9 +1,4 @@
 <template>
-    <!-- <div class="container justify-content-start align-items-start d-flex">
-    <a class="navbar-brand" href="#">
-      <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
-    </a> -->
-  <!-- </div> -->
         <ul class="nav justify-content-center">
   <li class="nav-item">
     <router-link to="/" class="nav-link">Home</router-link>
@@ -16,9 +11,6 @@
   </li>
   <li class="nav-item">
     <router-link to="/resume" class="nav-link">Resume</router-link>
-  </li>
-  <li class="nav-item">
-    <router-link to="/testimonials" class="nav-link">Testimonials</router-link>
   </li>
   <li class="nav-item">
     <router-link to="/contact" class="nav-link">Contact</router-link>
@@ -34,7 +26,6 @@ export default {
 ul {
   background-image: none;
   background-color: transparent; /* Make the menu become transparent */
-  /* background: #b7a7c3; */
   border-radius: 0px;
   border: 0;
   box-shadow: none;
@@ -47,7 +38,14 @@ ul {
 }
 
 a.nav-link {
-  color: rgb(221, 221, 219) !important;
+  color: black;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+/* font-family: Inter; */
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
     

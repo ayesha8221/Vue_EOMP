@@ -1,33 +1,37 @@
 <template>
-  <div class="home">
-    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  </div>
   <div class="bgImg">
             <div class="container overlay w-100 h-100">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                      <div class="bgtext"><div class="wrapper">
-    <div class="bgText">
-      Hi! I'm Ayesha Galant.<br>
-      I am an aspiring software developer.
-    </div>
-    <div>
-      <router-link to="/projects">
-        <button class="btnp">Projects</button>
-      </router-link>
+                   
+
+                  <router-link to="/projects">
+  <button class="projects">
+    <span class="bounce-text">Projects</span>
+  </button>
+</router-link>
       <router-link to="/contact">
-        <button class="btnc">Contact</button>
+        <button class="contact">
+          <span class="bounce-text">Contact</span>
+        </button>
       </router-link>
-    
+      <router-link to="/about">
+        <button class="about">
+          <span class="bounce-text">About</span>
+        </button>
+      </router-link>
+      <router-link to="/resume">
+        <button class="resume">
+          <span class="bounce-text">Resume</span>
+        </button>
+      </router-link>
+      <span class="myName slide-in">Ayesha Galant</span>
+      <span class="myJob slide-in">Web Developer</span>
     </div>
-</div>
 </div>
                       
-                  </div>
-                    </div>
-                </div>
-            </div>
+                  
+                  
+              
+            
 </template>
 
 <script>
@@ -51,7 +55,7 @@ body {
   overflow-x: hidden;
 }
 .bgImg {
-  background-image: url(https://i.postimg.cc/x8gW9dh7/premium-photo-1683631774703-f43d458bcf74-transformed-Cropped.jpg);
+  background-image: url(https://i.postimg.cc/kXRbpnr9/premium-photo-1683631774703-f43d458bcf74-transformed1.jpg);
     position: relative;
     background-size: cover;
     height: 100vh;
@@ -60,63 +64,136 @@ body {
     background-repeat: no-repeat;
 }
 
-.wrapper {
-  padding-top: 270px;
-  display: grid;
-  place-items: center;
-  
-}
-
-.ul {
-  background-image: none;
-  background-color: transparent !important; 
-  border: 0;
-  box-shadow: none;
-  padding: 10px;
+/* projects button */
+button.projects {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
+  background-color: transparent;
+  border: none;
+  top: 35%;
+  left: 7%;
+color: #CC6E66;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Inter;
+font-size: 70px;
+font-weight: 900;
 }
 
-
-.bgText {
-    color: rgb(206, 206, 206);
-  width: 47ch;
-  animation: typing 2s steps(22), blink 1s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translate(-50%, -50%);
-  font-family: monospace;
-  font-size: 2em;
-  text-align: center;
+button.projects:hover {
+  color:#E99B94;
 }
 
-@keyframes typing {
-  from {
-    width: 0
+/* contact button */
+button.contact {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  top: 65%;
+  left: 53%;
+color: var(--d-9-d-9-d-9, #E39D45);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Inter;
+font-size: 70px;
+font-weight: 900;
+}
+
+button.contact:hover {
+  color:var(--d-9-d-9-d-9, #e1b175);
+}
+
+/* about button */
+
+button.about {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  top: 6%;
+  left: 37.5%;
+color: black;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Inter;
+font-size: 70px;
+font-weight: 900;
+}
+
+button.about:hover {
+  color:grey;
+}
+
+/* resume button */
+
+button.resume {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  top: 14%;
+  left: 74%;
+color: var(--d-9-d-9-d-9, #5F3A31);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Inter;
+font-size: 70px;
+font-weight: 900;
+}
+
+button.resume:hover {
+  color:var(--d-9-d-9-d-9, #825144);
+}
+
+/* Ayesha Galant */
+.myName {
+  position: absolute;
+  top: 48%;
+right: 18%;
+transform: rotate(44.415deg);
+flex-shrink: 0;
+color: var(--d-9-d-9-d-9, #5F3A31);
+/* text-align: center; */
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
+/* font-family: Inter; */
+font-size: 80px;
+font-style: italic;
+font-weight: 800;
+line-height: normal;
+}
+
+.myName:hover {
+  color: var(--d-9-d-9-d-9, #905446);
+}
+
+/* web developer */
+.myJob {
+  position: absolute;
+  top: 66%;
+right: 40%;
+transform: rotate(48.928deg);
+flex-shrink: 0;
+color: var(--d-9-d-9-d-9, #5F3A31);
+/* text-align: center; */
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
+/* font-family: Inter; */
+font-size: 80px;
+font-style: italic;
+font-weight: 800;
+line-height: normal;
+}
+
+.myJob:hover {
+  color: var(--d-9-d-9-d-9, #905446);
+}
+
+.bounce-text {
+  display: inline-block;
+  animation: bounce 0.8s alternate infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px); /* Adjust this value for the desired movement */
   }
 }
 
-.btnp {
-  color: rgb(255, 255, 255);
-  background-color: blueviolet;
-  border: solid blueviolet;
-  margin-right: 100px;
-  height: 40px;
-  width: 90px;
-  border-radius: 20px;
-}
-.btnc {
-  color: white;
-  background-color: blueviolet;
-  border: solid blueviolet;
-  margin-right: 800px;
-  height: 40px;
-  width: 90px;
-  border-radius: 20px;
-}
 
 </style>
 
