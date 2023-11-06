@@ -74,7 +74,7 @@ button.projects {
 color: #CC6E66;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 font-family: Inter;
-font-size: 70px;
+font-size: 60px;
 font-weight: 900;
 }
 
@@ -87,12 +87,12 @@ button.contact {
   position: absolute;
   background-color: transparent;
   border: none;
-  top: 65%;
-  left: 53%;
+  top: 69%;
+  left: 52%;
 color: var(--d-9-d-9-d-9, #E39D45);
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 font-family: Inter;
-font-size: 70px;
+font-size: 60px;
 font-weight: 900;
 }
 
@@ -107,11 +107,11 @@ button.about {
   background-color: transparent;
   border: none;
   top: 6%;
-  left: 37.5%;
+  left: 37%;
 color: black;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 font-family: Inter;
-font-size: 70px;
+font-size: 60px;
 font-weight: 900;
 }
 
@@ -130,7 +130,7 @@ button.resume {
 color: var(--d-9-d-9-d-9, #5F3A31);
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 font-family: Inter;
-font-size: 70px;
+font-size: 60px;
 font-weight: 900;
 }
 
@@ -141,8 +141,8 @@ button.resume:hover {
 /* Ayesha Galant */
 .myName {
   position: absolute;
-  top: 48%;
-right: 18%;
+  top: 57%;
+right: 13%;
 transform: rotate(44.415deg);
 flex-shrink: 0;
 color: var(--d-9-d-9-d-9, #5F3A31);
@@ -162,15 +162,15 @@ line-height: normal;
 /* web developer */
 .myJob {
   position: absolute;
-  top: 66%;
-right: 40%;
+  top: 68%;
+right: 43%;
 transform: rotate(48.928deg);
 flex-shrink: 0;
 color: var(--d-9-d-9-d-9, #5F3A31);
 /* text-align: center; */
 text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
 /* font-family: Inter; */
-font-size: 80px;
+font-size: 61.5px;
 font-style: italic;
 font-weight: 800;
 line-height: normal;

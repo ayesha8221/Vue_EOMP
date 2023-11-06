@@ -2,17 +2,17 @@
   <NavbarComp v-if="!isHomePage"/>
   
   <router-view/> 
-  <!-- <FooterComp/> -->
+  <FooterComp/>
 </template>
 <script>
 
 import NavbarComp from './components/NavbarComp.vue';
-// import FooterComp from './components/FooterComp.vue';
+import FooterComp from './components/FooterComp.vue';
 
 export default {
   components: {
     NavbarComp,
-    // FooterComp
+    FooterComp
   },
   data() {
     return {

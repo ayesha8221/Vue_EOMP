@@ -1,6 +1,5 @@
 
 <template>
-   <NavbarComp/>
   <section id="Projects">
     <div class="container">
       <h1 class="projects-heading">Projects</h1>
@@ -40,7 +39,6 @@
         <div v-else><Loader/></div>
         </div>
       </div>
-    <!-- </div> -->
   </section>
 </template>
 <script>
@@ -83,29 +81,18 @@ export default {
   display: none;
 }
 
+body {
+  background-color: #BD9D91;
+}
 
 #Projects {
-  background-color: #b7a7c3 !important  ;
-  color: white;
+  background-color: #BD9D91 !important  ;
+  color: #BD9D91;
   min-height: 100vh;
 }
 
 .container {
   padding-bottom: 40px;
-}
-
-ul {
-  background-color: #cbc0d3 !important ;
-  background-image: none;
-  /* background-color: transparent !important;  */
-  border: 0;
-  box-shadow: none;
-  padding: 10px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
 }
 
 .filter-buttons {
@@ -114,7 +101,7 @@ ul {
   text-align: center;
   display: inline-block;
   border-radius: 10px;
-  background: #b498a9;
+  background: #E7D7D6;
   margin-bottom: 20px;
 }
 
@@ -122,18 +109,27 @@ button {
   background: transparent;
   border: none;
   align-items: center;
+  font-family: 'Varela Round', sans-serif;
   justify-content: center;
   color: #b7a7c3;
   border-radius: 10px;
   font-size: 40px;
+  color: #E99B94;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+/* font-family: Inter; */
+font-size: 45px;
+/* font-style: normal; */
+font-weight: 700;
+line-height: normal;
 }
 
 button:hover {
-  background: #a58298;
+  background: #eeb7b2;
 }
 
 label{
-  color:#5d6c87;
+  color:#E7D7D6;
   font-size: 1;
 }
 
@@ -144,12 +140,20 @@ label{
 }
 
 .projects-heading {
-  color: #a58298;
+  /* color: #a58298; */
  font-family: 'Varela Round', sans-serif;
   font-weight: 2rem;
   font-size: 5rem;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
+  color: #E99B94;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+/* font-family: Inter; */
+font-size: 90px;
+/* font-style: normal; */
+font-weight: 700;
+/* line-height: normal; */
 }
 .projects-heading:after {
   content: "";

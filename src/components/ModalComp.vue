@@ -1,5 +1,20 @@
 <template>
-  <div>
+  <div class="card col d-flex justify-content-center">
+  <div class="hold">
+    <img class="image" :src="project.image" :alt="project.title" >
+  </div>
+  <div class="containe words">
+    <h5>{{ project.title }}</h5>
+    <p>{{ project.desc }}</p>
+    <button>
+      <a :href="project.link"><img class="links" src="https://i.postimg.cc/9FvYzQ6N/455691.png" alt=""> </a>
+    </button>
+    <button>
+      <a :href="project.github"><img class="links" src="https://i.postimg.cc/QtL1FsN0/img-icons8.png" alt=""> </a>
+    </button>
+  </div>
+</div>
+  <!-- <div>
   <div class="col d-flex justify-content-center">
     <div class="card my-4" id="body">
         <img :src="project.image" :alt="project.title" class="picture" />
@@ -7,8 +22,7 @@
         <p>{{ project.desc }}</p>
         <button class="button"><a :href="project.link">Check me out</a></button>
     </div>
-  </div>
-    </div>
+  </div> -->
 </template>
 <script>
 export default {
@@ -17,70 +31,32 @@ export default {
 </script>
 <style scoped>
 
-body {
-  padding-top: 60px;
+.hold {
+  padding-top:10px;
+}
+.card.col.d-flex.justify-content-center {
+/* border: red solid; */
+background-color: blue;
+width: 350px;
+border-radius: 22px;
 }
 
-#project-imgs {
-  padding-top: 60px;
-  height: 300px;
-  width: auto;
+.image {
+  /* border: solid red; */
+  /* padding-top: 30px; */
+  border-radius: 22px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+height: 300px;
+width: auto;
 }
 
-.butt {
-  width: auto;
+.links{
   height: 40px;
-  text-decoration: none;
-  text-underline-offset: none;
 }
-
-.container {
-  margin-top: 60px;
-}
-
-.card.my-4 {
-  /* background:  #dab99a; */
- border: 1px solid #a58298; 
-  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
-  transition: all .3s ease-in-out;
-  /* border: none; */
-}
-
-.card.my-4:hover{
-  box-shadow: #a58298 0px 25px 43px;
-  transform: translate3d(0px, -1.5px, 0px);
-}
-
-#body {
-  height: 405px;
-  width:300px;
-  text-align: center;
-  background: #b9aec6 !important;
-  /* justify-content: center; */
-  align-items: center;
-  color: rgb(221, 221, 219);
-  -webkit-text-stroke: black;
-}
-
-.picture {
-  width: 300px;
-  height: 250px;
-  /* width: fit-content; */
-}
-
-button {
-  color: rgb(255, 255, 255);
-  background-color:  #a58298;
-  border: solid #b498a9;
-  /* margin-right: 100px; */
-  height: 40px;
-  width: 120px;
-  border-radius: 20px;
-}
-
-a {
-  text-decoration: none;
-  color: white;
+.containe.words {
+  padding: 10px ;
+  background-color: aqua;
+  border-radius: 22px;
 }
   
 </style>
