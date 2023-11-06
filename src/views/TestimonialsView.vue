@@ -80,13 +80,13 @@ img.stars {
 }
 
 #Testimonials {
-  background-color: #b7a7c3 !important ;
+  background-color: white !important ;
   color: white;
   min-height: 100vh;
 }
 
 .testimonials-heading {
-  color:  #a58298;
+  color:  #cc6e66;
  font-family: 'Varela Round', sans-serif;
   font-weight: 2rem;
   font-size: 5rem;
@@ -116,6 +116,5 @@ ul {
   right: 0;
   z-index: 10;
 }
-
     
 </style>
