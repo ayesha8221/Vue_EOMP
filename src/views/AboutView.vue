@@ -2,14 +2,14 @@
   <section id="About">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 p-5">
+        <div class="col-md-4 p-5 slide-from-left">
           <img
             class="img-fluid"
             src="https://i.postimg.cc/D07TyW9F/C12-Ayesha-Galant-Class1-1-removebg-preview.png"
             alt="Ayesha Galant"
           />
         </div>
-        <div class="col-md-8 p-5">
+        <div class="col-md-8 p-5 slide-from-right">
           <h1 class="about-heading">About Me</h1>
           <hr>
           <p class="text-start">I am  <strong class="strong">Ayesha Galant</strong>,  a passionate and dedicated web developer based in Lansdowne, Southern Suburbs. My journey into the world of technology began with a burning desire to break into the tech field. Since then, I've embarked on a comprehensive web development program, equipping myself with a wide range of skills that include HTML5, CSS3, Bootstrap, JavaScript, Vue.js, MySQL, and Node.js.</p>
@@ -180,5 +180,50 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
   }
+.slide-from-left {
+  animation: slideInFromLeft 2s ease both;
+}
+
+  @keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.slide-from-right {
+  animation: slideInFromRight 2s ease both;
+  animation-delay: 1s;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.skills-heading {
+  animation: fadeIn 1s ease both;
+  animation-delay: 2s; /* Adjust the delay time as needed */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 
 </style>

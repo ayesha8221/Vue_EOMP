@@ -60,5 +60,11 @@ button {
   height: 200px;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+h5 {
+  font-size: 20px;
+  text-shadow: 0px 4px 4px rgba(73, 71, 71, 0.25);
+  font-weight: 600;
+}
   
 </style>
