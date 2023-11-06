@@ -2,10 +2,11 @@
 <template>
   <section id="Projects">
     <div class="container">
+      <br>
+      <br>
       <h1 class="projects-heading">Projects</h1>
       <div class="container">
         <div class="category-filter">
-          <label>Select a language</label>
           <br>
           <div class="filter-buttons">
             <button
@@ -33,12 +34,15 @@
             </button>
           </div>
         </div>
-         <div v-if="projects" class="flex-container row row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+         <div v-if="projects" class="flex-container justify-content-center row row-cols-1 row-cols-sm-2 row-cols-lg-4 ">
           <ModalComp v-for="project in filteredProjects" :key="project.id" :project="project"/>
         </div>
         <div v-else><Loader/></div>
         </div>
       </div>
+      <div>
+      <span class="copyright">Designed by Ayesha Galant © 2023</span>
+    </div>
   </section>
 </template>
 <script>
@@ -81,9 +85,6 @@ export default {
   display: none;
 }
 
-body {
-  background-color: #BD9D91;
-}
 
 #Projects {
   background-color: #BD9D91 !important  ;
@@ -103,6 +104,7 @@ body {
   border-radius: 10px;
   background: #E7D7D6;
   margin-bottom: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 button {
@@ -140,20 +142,12 @@ label{
 }
 
 .projects-heading {
-  /* color: #a58298; */
- font-family: 'Varela Round', sans-serif;
-  font-weight: 2rem;
-  font-size: 5rem;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
   color: #E99B94;
-text-align: center;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-/* font-family: Inter; */
-font-size: 90px;
-/* font-style: normal; */
-font-weight: 700;
-/* line-height: normal; */
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 3rem;
+  font-size: 7rem;
+  margin-top: 3rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .projects-heading:after {
   content: "";

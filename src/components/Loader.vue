@@ -20,7 +20,7 @@ export default {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #fff;
+  background: black;
   animation: lds-grid 1.2s linear infinite;
 }
 .lds-grid div:nth-child(1) {

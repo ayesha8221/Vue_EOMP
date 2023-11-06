@@ -14,7 +14,7 @@
         <!-- <ResumeComp v-for="education of education" :key="education.id" :education="education"/> -->
         <div>
                     <div class="col-xs-6">
-    <div class="row">
+    <div class="row g-0">
     	<ul class="timeline-both-side">
         	<li>
             	<div class="border-line"></div>
@@ -96,9 +96,9 @@
 <span class="softSkills">
         Soft Skills
       </span>
-      <div class="container-fluid">
+      <div class="container-fluid align-items-center justify-content-center">
   <div class="row align-items-center justify-content-center">
-    <div class="col">
+    <div class="col d-flex justify-content-center">
       <div class="card w-75">
   <div class="card-body">
     <h5 class="card-title">Leadership</h5>
@@ -107,7 +107,7 @@
   </div>
 </div>
     </div>
-    <div class="col">
+    <div class="col d-flex justify-content-center">
       <div class="card w-75">
   <div class="card-body">
     <h5 class="card-title">Communication</h5>
@@ -116,7 +116,7 @@
   </div>
 </div>
     </div>
-    <div class="col">
+    <div class="col d-flex justify-content-center">
       <div class="card w-75">
   <div class="card-body">
     <h5 class="card-title">Problem Solving</h5>
@@ -178,14 +178,14 @@ export default {
 .skills-heading.p-3 {
   color: #7C4D43;
   font-family: 'Varela Round', sans-serif;
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .softSkills {
   color: #7C4D43;
   font-family: 'Varela Round', sans-serif;
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
