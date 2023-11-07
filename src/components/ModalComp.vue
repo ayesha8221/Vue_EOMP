@@ -36,7 +36,6 @@ export default {
 }
 
 .hold:hover {
-  /* transform: scale(1.1); */
   transform: translate3d(0px, -5px, 0px);
   transition: ease-in 0.4s;
 }
