@@ -15,7 +15,7 @@
           <p class="text-start">I am  <strong class="strong">Ayesha Galant</strong>,  a passionate and dedicated web developer based in Lansdowne, Southern Suburbs. My journey into the world of technology began with a burning desire to break into the tech field. Since then, I've embarked on a comprehensive web development program, equipping myself with a wide range of skills that include HTML5, CSS3, Bootstrap, JavaScript, Vue.js, MySQL, and Node.js.</p>
           <br>
           <p class="text-start"> My enthusiasm for web development is driven by the ever-evolving nature of the industry, and I've taken the initiative to further my knowledge by venturing into the realm of AWS cloud computing. I believe that in this rapidly changing digital landscape, continuous learning and adaptation are key to success.</p>
-          <div>
+          <div class="moreInfo">
             <span>
               Full Name: Ayesha Galant
             </span>
@@ -31,7 +31,7 @@
         </div>
 
           <h2 class="skills-heading">Technical Skills</h2>
-          <div class="container d-inline-block justify-content center">
+          <div class="container d-inline-block justify-content-center">
             <div class="row p-5">
                <div class="col-md-2 p-1">
                   <img class="vuejs" src="https://i.postimg.cc/KcfsXSQ0/vue-js-icon.png" alt="VueJs">
@@ -139,9 +139,6 @@ a:hover {
   text-decoration: none;
 }
 .img-fluid {
-  /* padding-bottom: 5rem; */
-  /* border: solid blueviolet; */
-  /* border-radius: 20px; */
   padding-top: 40px;
   max-height: 100%;
 }
@@ -224,6 +221,52 @@ line-height: normal;
   }
 }
 
+@media screen and (max-width: 768px) {
+  .img-fluid {
+  margin-top: 60px !important;
+  width: 400px !important;
+}
+ .about-heading {
+  font-size: 5rem;
+}
+ .text-start, .moreInfo {
+  font-size: 12px;
+ }
 
+ .col-md-4.p-5.slide-from-left {
+  padding: 1rem !important;
+ }
+
+ .skills-heading {
+  font-size: 3rem;
+ }
+
+ .row.p-5 {
+  padding: 1rem;
+  display:block;
+ }
+
+ .copyright {
+  font-size: 15px;
+ }
+ 
+}
+ 
+@media screen and (max-width: 768px) {
+  .img-fluid {
+  margin-top: 40px !important;
+  width: 200px !important;
+}
+
+.about-heading {
+  font-size: 5rem;
+  padding-top: 10px !important;
+}
+
+.row.p-5 {
+  padding: 10px !important;
+  display:block;
+ }
+}
 
 </style>
