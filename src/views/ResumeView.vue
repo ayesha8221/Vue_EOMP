@@ -10,8 +10,6 @@
         <div class="container">
                 <h2 class="skills-heading p-3">Education & Experience</h2>
         </div>
-        <!-- <div v-if="education" :key="education.id" :education="education"> -->
-        <!-- <ResumeComp v-for="education of education" :key="education.id" :education="education"/> -->
         <div>
                     <div class="col-xs-6">
     <div class="row g-0">
@@ -153,7 +151,6 @@ export default {
 
 .container {
   padding-top: 60px;
-  /* border: blueviolet solid; */
 }
 
 .about-heading {
@@ -217,7 +214,6 @@ export default {
 .copyright {
     color: #000;
 text-align: center;
-/* font-family: Inter; */
 font-size: 20px;
 font-style: normal;
 font-weight: 700;
@@ -253,7 +249,8 @@ div.row {
   padding-bottom: 50px;
 }
 .timeline-both-side{
-  float: left; width: 96%; 
+  float: left; 
+  width: 96%; 
   margin: 20px 2% 50px; 
   position: relative; 
   box-sizing: border-box;

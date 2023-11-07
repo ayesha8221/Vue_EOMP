@@ -146,9 +146,7 @@ right: 13%;
 transform: rotate(44.415deg);
 flex-shrink: 0;
 color: var(--d-9-d-9-d-9, #5F3A31);
-/* text-align: center; */
 text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
-/* font-family: Inter; */
 font-size: 80px;
 font-style: italic;
 font-weight: 800;
@@ -167,9 +165,7 @@ right: 43%;
 transform: rotate(48.928deg);
 flex-shrink: 0;
 color: var(--d-9-d-9-d-9, #5F3A31);
-/* text-align: center; */
 text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
-/* font-family: Inter; */
 font-size: 61.5px;
 font-style: italic;
 font-weight: 800;

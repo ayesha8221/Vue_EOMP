@@ -97,7 +97,6 @@ export default {
 }
 
 .filter-buttons {
-  /* border:  #a58298; */
   width: 350px;
   text-align: center;
   display: inline-block;
@@ -119,9 +118,7 @@ button {
   color: #E99B94;
 text-align: center;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-/* font-family: Inter; */
 font-size: 45px;
-/* font-style: normal; */
 font-weight: 700;
 line-height: normal;
 }
@@ -138,7 +135,6 @@ label{
 .lang {
   height: 50px;
   align-items: center;
-  /* margin-right: 30px; */
 }
 
 .projects-heading {

@@ -51,7 +51,6 @@
                         
                         <button type="submit" class="btn ">Submit</button>
                     </form>
-      <!-- <FormComp class="info"/> -->
     </div>
   </div>
         </div>
@@ -64,10 +63,7 @@
 </template>
 <script>
 
-// import FormComp from '@/components/FormComp.vue';
-
 export default {
-    // components: { FormComp }
 }
 </script>
 <style scoped>
